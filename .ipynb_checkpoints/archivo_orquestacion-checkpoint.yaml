@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-app
+  template:
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers:
+      - name: reloj-app
+        image: europe-west2-docker.pkg.dev/dark-yen-414408/practicak8s/reloj-app:latest
+        ports:
+        - containerPort: 8080
