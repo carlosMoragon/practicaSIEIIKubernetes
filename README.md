@@ -1,5 +1,7 @@
 # practica Kubernetes
 
+## Por: Carlos Moragón Corella
+
 ### Objetivo:
 
 Usar Google Cloud Scheduler para gestionar un pod/contenedor docker dentro de un cluster de kubernetes.
@@ -13,6 +15,5 @@ Usar Google Cloud Scheduler para gestionar un pod/contenedor docker dentro de un
 * Docker.
 * Kubernetes.
 
-### Archivo de memoria:
-
-![]()
+### Archivo de memoria: 
+![Memoria](https://github.com/carlosMoragon/practicaSIEIIKubernetes/blob/main/K8S.pdf)
